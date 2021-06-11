@@ -6,6 +6,7 @@ function generate_exp(lambda, num_samples::Int)
     return exp_rand
 end
 
+# 逆変換法で指数分布に従う乱数を生成
 function main()
     num_samples = 5000
     lambda = 2.0
