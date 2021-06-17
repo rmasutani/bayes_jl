@@ -7,7 +7,7 @@ Gibbs sampling from a finite mixture model.
 """
 function sample()
     # Define variables
-    n = 100
+    n = 500
     m = 10000
     theta = 0.3
     index = rand(n) .<= theta
